@@ -1,0 +1,7 @@
+httpx
+mcp[cli]>=1.5.0
+rpds-py
+azure-ai-projects
+azure-ai-agents
+azure-identity
+dotenv

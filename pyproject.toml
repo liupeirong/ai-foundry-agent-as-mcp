@@ -1,0 +1,17 @@
+[project]
+name = "ai-foundry-agent-as-mcp"
+version = "0.1.0"
+description = "A simple MCP server that can make API calls"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=2.10.6",
+    "pydantic>=2.0.0",
+    "azure-ai-projects",
+    "azure-identity",
+    "azure-ai-agents",
+    "dotenv>=0.9.9",
+]
+
+[project.scripts]
+ai-foundry-agent-as-mcp = "main:main"

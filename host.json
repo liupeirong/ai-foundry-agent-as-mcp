@@ -1,0 +1,16 @@
+{
+    "version": "2.0",
+    "extensions": {
+        "http": {
+            "routePrefix": ""
+        }
+    },
+    "customHandler": {
+        "description": {
+            "defaultExecutablePath": "python",
+            "workingDirectory": "",
+            "arguments": ["function_mcp.py"]
+        },
+        "enableProxyingHttpRequest": true
+    }
+}
